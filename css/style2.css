@@ -1,0 +1,384 @@
+/*文字标题*/
+@media (max-width: 749px){
+	.section2-bt2{
+		display: block;
+	}
+}
+/*logo*/
+@media (max-width: 425px){
+	.navbar-logo img{
+		height: 35px;
+		margin-top: -10px;
+		width:120px;
+	}
+}
+/*swiper*/
+@media (max-width:768px) {
+	.swiper-container1{
+		height: 60vh;
+	}
+	.swiper1-box2 h2 span{
+		font-size: 28px;
+	}
+	.swiper1-box2 h2{
+		font-size: 24px;
+	}
+	.swiper1-box2 p{
+		font-size: 22px;
+	}
+	.swiper1-box2 p span{
+		font-size: 24px;
+	}
+	.footer{
+		font-size: 10px;
+	}
+}
+/*section3时光轴*/
+@media (max-width: 600px) {
+
+	.cntl-bar {
+		left:auto;
+		right: 37px;
+	}
+	.cntl-content {
+		width:80%;
+		float:none;
+	}
+	.cntl-state:nth-child(2n+2) .cntl-content {
+		margin-right:0%;
+		float:none;
+	}
+	.cntl-image {
+		width:80%;
+	}
+	.cntl-state:nth-child(2n+1) .cntl-image {
+		float:none;
+	}
+	.animate .cntl-content {
+		margin-left: 2%;
+	}
+	.cntl-icon {
+		left: auto;
+		right: 0;
+	}
+
+}
+/*.section5攻城狮介绍*/
+@media (max-width:1345px){
+	.pe-thumbs{
+		height: 570px;
+	}
+	.pe-thumbs li img{
+		width: 282px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-588px;
+	}
+}
+@media (max-width:1200px){
+	.pe-thumbs li img{
+		width: 232px;
+	}
+	.pe-thumbs li div.pe-description{
+		width: 220px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-497px;
+	}
+}
+@media (max-width:1024px){
+	.pe-thumbs{
+		height: 450px;
+	}
+	.pe-thumbs li img{
+		width: 231px;
+		height: 220px;
+	}
+	.pe-thumbs li div.pe-description{
+		height: 220px;
+		width: 220px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-495px;
+	}
+}
+@media (max-width:990px){
+	.pe-thumbs li img{
+		width: 177px;
+	}
+	.pe-thumbs li div.pe-description{
+		width: 160px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-370px;
+	}
+}
+@media (max-width:768px){
+	.pe-thumbs li img{
+		width: 177px;
+		height: 220px;
+	}
+	.pe-thumbs li div.pe-description{
+		height: 220px;
+		width: 160px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-370px;
+	}
+}
+@media (max-width:766px){
+	.pe-thumbs li img{
+		width: 175px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-370px;
+	}
+}
+@media (max-width:760px){
+	.pe-thumbs li img{
+		width: 170px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-365px;
+	}
+}
+@media (max-width:750px){
+	.pe-thumbs li img{
+		width: 160px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-352px;
+	}
+}
+@media (max-width:740px){
+	.pe-thumbs li img{
+		width: 150px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-342px;
+	}
+}
+@media (max-width:730px){
+	.pe-thumbs li img{
+		width: 140px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-332px;
+	}
+}
+@media (max-width:720px){
+	.pe-thumbs{
+		height:890px;
+	}
+	.pe-thumbs li img{
+		width: 330px;
+	}
+	.pe-thumbs li div.pe-description{
+		width: 320px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-680px;
+	}
+}
+@media (max-width:700px){
+	.pe-thumbs li img{
+		width: 320px;
+	}
+	.pe-thumbs li div.pe-description{
+		width: 300px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-680px;
+	}
+}
+@media (max-width:690px){
+	.pe-thumbs li img{
+		width: 310px;
+	}
+	.pe-thumbs li div.pe-description{
+		width: 280px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-650px;
+	}
+}
+@media (max-width:680px){
+	.pe-thumbs li img{
+		width: 300px;
+	}
+	.pe-thumbs li div.pe-description{
+		width: 270px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-620px;
+	}
+}
+@media (max-width:660px){
+	.pe-thumbs li img{
+		width: 280px;
+	}
+	.pe-thumbs li div.pe-description{
+		width: 250px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-585px;
+	}
+}
+@media (max-width:640px){
+	.pe-thumbs li img{
+		width:260px;
+	}
+	.pe-thumbs li div.pe-description{
+		width: 240px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-550px;
+	}
+}
+@media (max-width:500px){
+	.pe-thumbs li img{
+		width:207px;
+	}
+	.pe-thumbs li div.pe-description{
+		width: 190px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-430px;
+	}
+}
+@media (max-width:425px){
+	.pe-thumbs li img{
+		width: 187px;
+		height: 220px;
+	}
+	.pe-thumbs li div.pe-description{
+		height: 220px;
+		width: 170px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-392px;
+	}
+}
+@media (max-width:412px){
+	.pe-thumbs li img{
+		width: 185px;
+		height: 220px;
+	}
+	.pe-thumbs li div.pe-description{
+		height: 220px;
+		width: 170px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-390px;
+	}
+}
+@media (max-width:402px){
+	.pe-thumbs li img{
+		width: 175px;
+	}
+}
+@media (max-width:389px){
+	.pe-thumbs li img{
+		width: 171px;
+	}
+}
+@media (max-width:380px){
+	.pe-thumbs li img{
+		width: 165px;
+	}
+}
+@media (max-width:376px){
+	.pe-thumbs{
+		height: 890px;
+	}
+	.pe-thumbs li img{
+		width: 167px;
+	}
+	.pe-thumbs li div.pe-description{
+		height: 220px;
+		width: 150px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-348px;
+	}
+}
+@media (max-width:370px){
+	.pe-thumbs li img{
+		width: 160px;
+	}
+}
+@media (max-width:360px){
+	.pe-thumbs li img{
+		width: 160px;
+		height: 220px;
+	}
+	.pe-thumbs li div.pe-description{
+		height: 220px;
+		width: 150px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-340px;
+	}
+}
+@media (max-width:358px){
+	.pe-thumbs li img{
+		width: 155px;
+	}
+}
+@media (max-width:345px){
+	.pe-thumbs li img{
+		width: 150px;
+	}
+}
+@media (max-width:340px){
+	.pe-thumbs li img{
+		width: 145px;
+	}
+}
+@media (max-width:330px){
+	.pe-thumbs li img{
+		width: 140px;
+	}
+}
+@media (max-width:320px){
+	.pe-thumbs{
+		height: 810px;
+	}
+	.pe-thumbs li img{
+		width: 140px;
+		height: 200px;
+	}
+	.pe-thumbs li div.pe-description{
+		height: 200px;
+		width: 130px;
+	}
+	.pe-thumbs li div.pe-description2{
+		margin-left:-298px;
+	}
+}
+@media (max-width:310px){
+	.pe-thumbs li img{
+		width: 130px;
+	}
+}
+@media (max-width:300px){
+	.pe-thumbs li img{
+		width: 125px;
+	}
+}
+@media (max-width:290px){
+	.pe-thumbs li img{
+		width: 120px;
+	}
+}
+@media (max-width:280px){
+	.pe-thumbs li img{
+		width: 115px;
+	}
+}
+/*section6关于我们*/
+@media (max-width: 1024px){
+	.company-img{
+		margin-bottom: 20px;
+	}
+}

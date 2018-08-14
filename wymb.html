@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>网页模板</title>
+<!--必要样式-->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+<!-- 导航 -->
+<header>
+	<nav id="navbar-example" class="navbar navbar-default navbar-fixed-top navbar-static navbar-height2" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".bs-js-navbar-scrollspy">
+	            <span class="sr-only"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	        </button>
+	    </div>
+		<div class="collapse navbar-collapse bs-js-navbar-scrollspy" id="example-navbar-collapse">
+			<ul class="nav navbar-nav">
+	            <li><a href="broduct.html">全部</a></li>
+	            <li><a href="wymb.html" style="color:#f9f9f9; background: #259ecb ;">网页案例</a></li>
+	            <li><a href="xcx.html">微信小程序案例</a></li>
+				<li><a href="pmsj.html">平面设计案例</a></li>
+				<li><a href="wljs.html">网络建设案例</a></li>
+				<li><a href="index.html">返回首页</a></li>
+				<li class="header-up"><span class="fa fa-angle-up"></span></li>
+	        </ul>
+		</div>
+		</div>
+	</nav>
+</header>
+<!-- 内容 -->
+<div class="container-fluid">
+	<section class="grid3d vertical" id="grid3d">
+		<div class="grid-wrap">
+			<div class="grid">
+				<figure><img src="img/wy/ar0.png" /></figure>
+				<figure><img src="img/wy/yr0.png" /></figure>
+				<figure><img src="img/wy/my0.png" /></figure>
+				<figure><img src="img/wy/cc0.png" /></figure>
+
+			</div>
+		</div>
+		<div class="content">
+			<div>
+				<div class="broduct-img">
+					<img src="img/wy/ar1.png" alt="">
+					<img src="img/wy/ar2.png" alt="">
+					<img src="img/wy/ar3.png" alt="">
+					<img src="img/wy/ar4.png" alt="">
+					<img src="img/wy/ar5.png" alt="">
+					<img src="img/wy/ar6.png" alt="">
+					<img src="img/wy/ar7.png" alt="">
+				</div>
+				<p class="dummy-text">安尔开锁网页设计模板，扁平化设计，多页面板块结合，展示简约布局，突出企业主要业务信息，让客户一眼明了。</p>
+			</div>
+			<div>
+				<div class="broduct-img">
+					<img src="img/wy/yr2.png" alt="">
+					<img src="img/wy/yr1.png" alt="">
+					<img src="img/wy/yr3.png" alt="">
+					<img src="img/wy/yr4.png" alt="">
+					<img src="img/wy/yr5.png" alt="">
+					<img src="img/wy/yr6.png" alt="">
+				</div>
+				<p class="dummy-text">幼儿编程网页设计模板，介绍教育编程课程体系，让家长更放心。</p>
+			</div>
+			<div>
+				<div class="broduct-img">
+					<img src="img/wy/my2.png" alt="">
+					<img src="img/wy/my3.png" alt="">
+					<img src="img/wy/my1.png" alt="">
+					<img src="img/wy/my4.png" alt="">
+					<img src="img/wy/my5.png" alt="">
+					<img src="img/wy/my6.png" alt="">
+
+				</div>
+				<p class="dummy-text">网络科技企业创意模板，简洁介绍企业业务及相关介绍，展示专业团队技能人才，提供方便的企业联系方式，让客户更放心。</p>
+			</div>
+			<div>
+				<div class="broduct-img">
+					<img src="img/wy/cc1.png" alt="">
+					<img src="img/wy/cc2.png" alt="">
+					<img src="img/wy/cc3.png" alt="">
+					<img src="img/wy/cc4.png" alt="">
+					<img src="img/wy/cc5.png" alt="">
+				</div>
+				<p class="dummy-text">展示型页面模板，主要介绍于相关产品的详细作用</p>
+			</div>
+
+			<span class="loading"></span>
+			<span class="icon close-content fa fa-times"></span>
+		</div>
+	</section>
+</div>
+<!-- 页脚 -->
+	<p class="footer-foot">Copyright ©  广州猿始人科技有限公司 粤ICP备18091847号</p>
+</body>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/grid3d.js"></script>
+	<script type="text/javascript">
+	new grid3D( document.getElementById( 'grid3d' ) );
+
+	$(document).ready(function(){
+	   
+	    $(".header-up").click(function(){
+	      $(".navbar-nav").slideUp();
+	    });
+	    $(".navbar-toggle").click(function(){
+	      $(".navbar-nav").slideDown();
+	    });
+	  });
+	</script>
+
+</html>

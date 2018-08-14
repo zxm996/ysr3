@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>微信小程序模板</title>
+<!--必要样式-->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+<!-- 导航 -->
+<header>
+	<nav id="navbar-example" class="navbar navbar-default navbar-fixed-top navbar-static navbar-height2" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".bs-js-navbar-scrollspy">
+	            <span class="sr-only"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	        </button>
+	    </div>
+		<div class="collapse navbar-collapse bs-js-navbar-scrollspy" id="example-navbar-collapse">
+			<ul class="nav navbar-nav">
+	            <li><a href="broduct.html">全部</a></li>
+	            <li><a href="wymb.html">网页案例</a></li>
+	            <li><a href="xcx.html" style="color:#f9f9f9; background: #259ecb ;">微信小程序案例</a></li>
+				<li><a href="pmsj.html">平面设计案例</a></li>
+				<li><a href="wljs.html">网络建设案例</a></li>
+				<li><a href="index.html">返回首页</a></li>
+				<li class="header-up"><span class="fa fa-angle-up"></span></li>
+	        </ul>
+		</div>
+		</div>
+	</nav>
+</header>
+<!-- 内容 -->
+<div class="container-fluid">
+	<section class="grid3d vertical" id="grid3d">
+		<div class="grid-wrap">
+			<div class="grid">
+				<figure><img src="img/xcx/ysr1.jpg" /></figure>
+				<figure><img src="img/xcx/ar1.png" /></figure>
+				<figure><img src="img/xcx/my1.jpg" /></figure>
+			</div>
+		</div>
+		<div class="content">
+			<div>
+				<div class="broduct-img broduct-img2">
+					<img src="img/xcx/ysr2.jpg" alt="">
+					<img src="img/xcx/ysr3.jpg" alt="">
+					<img src="img/xcx/ysr4.jpg" alt="">
+					<img src="img/xcx/ysr5.jpg" alt="">
+					<img src="img/xcx/ysr6.jpg" alt="">
+				</div>
+				<p class="dummy-text">广州猿始人科技有限公司小程序案例模板，专业介绍企业业务，内设有客服咨询，在线支付等功能。</p>
+			</div>
+			<div>
+				<div class="broduct-img broduct-img2">
+					<img src="img/xcx/ar2.jpg" alt="">
+					<img src="img/xcx/ar3.jpg" alt="">
+					<img src="img/xcx/ar4.jpg" alt="">
+					<img src="img/xcx/ar5.jpg" alt="">
+					<img src="img/xcx/ar6.jpg" alt="">
+				</div>
+				<p class="dummy-text">安尔开锁微信小程序案例模板，专业介绍企业业务，内设有客服咨询，在线预约等功能。</p>
+			</div>
+			<div>
+				<div class="broduct-img broduct-img2">
+					<img src="img/xcx/my1.jpg" alt="">
+					<img src="img/xcx/my2.jpg" alt="">
+					<img src="img/xcx/my3.jpg" alt="">
+					<img src="img/xcx/my4.jpg" alt="">
+					<img src="img/xcx/my5.jpg" alt="">
+				</div>
+				<p class="dummy-text">餐厅点餐、外卖小程序，帮助店家在线上运营，一键地图导航，方便顾客提前在线下单及订购外卖。</p>
+			</div>
+			
+			<span class="loading"></span>
+			<span class="icon close-content fa fa-times"></span>
+		</div>
+	</section>
+</div>
+<!-- 页脚 -->
+	<p class="footer-foot">Copyright ©  广州猿始人科技有限公司 粤ICP备18091847号</p>
+</body>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/grid3d.js"></script>
+	<script type="text/javascript">
+	new grid3D( document.getElementById( 'grid3d' ) );
+
+	$(document).ready(function(){
+	   
+	    $(".header-up").click(function(){
+	      $(".navbar-nav").slideUp();
+	    });
+	    $(".navbar-toggle").click(function(){
+	      $(".navbar-nav").slideDown();
+	    });
+	  });
+	</script>
+
+</html>
